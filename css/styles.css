@@ -411,7 +411,7 @@ img {
   text-decoration: none;
 }
 
-.projects-item:not(:nth-child(n + 3)) {
+.projects-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }
 
